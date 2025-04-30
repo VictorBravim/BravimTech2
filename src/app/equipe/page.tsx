@@ -1,9 +1,9 @@
  
-import BlogDetails from "@/components/blog-details";
+import Team from "@/components/equipe";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Detalhes Blog - Serviços Web",
+	title: "Equipe - Serviços Web",
 	description: "Creative Digital Agency", 
 	 
 };
@@ -11,7 +11,7 @@ export const metadata = {
 const index = () => {
 	return (
 		<Wrapper>
-			<BlogDetails />
+			<Team />
 		</Wrapper>
 	);
 };

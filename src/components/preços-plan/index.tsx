@@ -3,18 +3,20 @@ import Breacrumb from "@/common/Breacrumb";
 import HeaderOne from "@/layouts/headers/HeaderOne";
 import Cta2Area from "../home/CTA2";
 import FooterOne from "@/layouts/footers/FooterOne";
-import PortfolioDetailsArea from "./PortfolioDetailsArea";
+import PricingPlanArea from "./PricingPlanArea";
+import FaqArea from "../home/Faq";
 
-const PortfolioDetails = () => {
+const PricingPlan = () => {
   return (
     <>
       <HeaderOne />
-      <Breacrumb title="Templates" subtitle="Portfolio" />
-      <PortfolioDetailsArea />
+      <Breacrumb title="Nossos Planos" subtitle="Preços" />
+      <PricingPlanArea />
+      <FaqArea style_2={true} />
       <Cta2Area />
       <FooterOne />
     </>
   );
 };
 
-export default PortfolioDetails;
+export default PricingPlan;

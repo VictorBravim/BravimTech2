@@ -7,12 +7,12 @@ const menu_data = [
   {
     id: 2,
     title: "Sobre",
-    link: "/about-us",
+    link: "/sobre",
   },
   {
     id: 3,
     title: "Serviços",
-    link: "/service",
+    link: "/templates",
   },
   {
     id: 4,

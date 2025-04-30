@@ -1,9 +1,9 @@
  
-import BlogDetails from "@/components/blog-details";
+import Service from "@/components/templates";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Detalhes Blog - Serviços Web",
+	title: "Serviços - Serviços Web",
 	description: "Creative Digital Agency", 
 	 
 };
@@ -11,7 +11,7 @@ export const metadata = {
 const index = () => {
 	return (
 		<Wrapper>
-			<BlogDetails />
+			<Service />
 		</Wrapper>
 	);
 };

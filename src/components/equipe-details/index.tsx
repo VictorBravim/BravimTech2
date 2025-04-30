@@ -3,18 +3,18 @@ import HeaderOne from "@/layouts/headers/HeaderOne";
 import React from "react";
 import Cta2Area from "../home/CTA2";
 import FooterOne from "@/layouts/footers/FooterOne";
-import PortfolioArea from "./PortfolioArea";
+import TeamDetailsArea from "./TeamDetailsArea";
 
-const Portfolio = () => {
+const TeamDetails = () => {
   return (
     <>
       <HeaderOne />
-      <Breacrumb title="Templates" subtitle="Portfolio" />
-      <PortfolioArea />
+      <Breacrumb title="Nosso Time" subtitle="Equipe" />
+      <TeamDetailsArea />
       <Cta2Area />
       <FooterOne />
     </>
   );
 };
 
-export default Portfolio;
+export default TeamDetails;

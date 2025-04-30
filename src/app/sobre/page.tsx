@@ -1,17 +1,16 @@
  
-import BlogDetails from "@/components/blog-details";
+import Aboutus from "@/components/sobre"; 
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Detalhes Blog - Serviços Web",
+	title: "Sobre nós - Serviços Web",
 	description: "Creative Digital Agency", 
-	 
 };
 
 const index = () => {
 	return (
 		<Wrapper>
-			<BlogDetails />
+			<Aboutus />
 		</Wrapper>
 	);
 };

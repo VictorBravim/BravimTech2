@@ -325,11 +325,11 @@ ol li {
 }
 
 .btn-primary {
-  background-color: #00ff95;
+  background-color: #00ff80;
   color: #0E0E0E;
 }
 .btn-primary:active, .btn-primary:hover, .btn-primary:focus {
-  background-color: #ECB50B;
+  background-color: #1fb910;
   color: #0E0E0E;
 }
 
@@ -373,14 +373,14 @@ ol li {
   position: absolute;
   width: 0px;
   height: 1px;
-  background-color: #00ff95;
+  background-color: #00ff80;
   content: "";
   bottom: -4px;
   left: 0;
   z-index: 10;
 }
 .btn-link:active, .btn-link:hover, .btn-link:focus {
-  color: #00ff95;
+  color: #00ff80;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -423,7 +423,7 @@ ol li {
 }
 
 .text-primary {
-  color: #00ff95 !important;
+  color: #00ff80 !important;
 }
 
 #scrollTopButton {
@@ -435,7 +435,7 @@ ol li {
   z-index: 9999;
   width: 2.5rem;
   height: 2.5rem;
-  background-color: #00ff95;
+  background-color: #00ff80;
   font-size: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -507,7 +507,7 @@ ol li {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: #00ff95;
+  background-color: #00ff80;
   display: block;
   line-height: 150px;
   color: #0E0E0E;
@@ -541,7 +541,7 @@ ol li {
   overflow: hidden;
 }
 #preloader .spinner-grow {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 
 /* Jarallax */
@@ -713,7 +713,7 @@ picture.jarallax-img img {
 }
 @media only screen and (min-width:992px) {
   .header-area .navbar-nav li .vorix-dd-menu li > a:hover, .header-area .navbar-nav li .vorix-dd-menu li > a:focus {
-    color: #00ff95;
+    color: #00ff80;
   }
 }
 .header-area .navbar-nav li.vorix-dd {
@@ -992,7 +992,7 @@ picture.jarallax-img img {
   text-align: center;
 }
 .right-side-vorix-offcanvas .offcanvas-body .social-nav a:hover, .right-side-vorix-offcanvas .offcanvas-body .social-nav a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
   color: #1A1A1A;
 }
 .right-side-vorix-offcanvas .offcanvas-body .cta-btn {
@@ -1024,7 +1024,7 @@ picture.jarallax-img img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #00ff95;
+  background-color: #00ff80;
   text-align: center;
   border-radius: 50%;
   font-weight: 600;
@@ -1034,7 +1034,7 @@ picture.jarallax-img img {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ECB50B;
+  background-color: #1fb910;
   content: "";
   top: 50%;
   left: 50%;
@@ -1176,7 +1176,7 @@ picture.jarallax-img img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #00ff95;
+  background-color: #00ff80;
   color: #0E0E0E;
   font-size: 14px;
   font-weight: 600;
@@ -1466,8 +1466,8 @@ picture.jarallax-img img {
 /* rk-theme css end */
 
 .service-slide-card:hover, .service-slide-card:focus {
-  background-color: #00ff95;
-  border-color: #00ff95;
+  background-color: #00ff80;
+  border-color: #00ff80;
 }
 .service-slide-card:hover h2, .service-slide-card:focus h2 {
   color: #0E0E0E;
@@ -1538,7 +1538,7 @@ picture.jarallax-img img {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ECB50B;
+  background-color: #1fb910;
   content: "";
   top: 50%;
   left: 50%;
@@ -1550,7 +1550,7 @@ picture.jarallax-img img {
   opacity: 0;
 }
 .service-swiper-navigation > div:hover, .service-swiper-navigation > div:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 .service-swiper-navigation > div:hover::before, .service-swiper-navigation > div:focus::before {
   width: 100%;
@@ -1675,7 +1675,7 @@ picture.jarallax-img img {
 }
 .service-details-content ul li [class^=material-symbols-],
 .blog-details-content ul li [class^=material-symbols-] {
-  color: #00ff95;
+  color: #00ff80;
   font-size: 24px;
 }
 
@@ -1745,8 +1745,8 @@ picture.jarallax-img img {
   font-size: 24px;
 }
 .service-list li a:hover, .service-list li a:focus {
-  border-color: #00ff95;
-  background-color: #00ff95;
+  border-color: #00ff80;
+  background-color: #00ff80;
   color: #0E0E0E;
 }
 .service-list li a:hover span, .service-list li a:focus span {
@@ -1839,7 +1839,7 @@ picture.jarallax-img img {
   z-index: 100;
   width: 160px;
   height: 160px;
-  background-color: #00ff95;
+  background-color: #00ff80;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1938,7 +1938,7 @@ picture.jarallax-img img {
 }
 .mission-vision-accordion .accordion-item .accordion-button:not(.collapsed) {
   color: #0E0E0E;
-  background-color: #00ff95;
+  background-color: #00ff80;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 8px 8px 0 0;
@@ -2039,7 +2039,7 @@ picture.jarallax-img img {
   color: #FFFFFF;
 }
 .team-details-content .social-nav a:hover, .team-details-content .social-nav a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
   color: #1A1A1A;
 }
 
@@ -2073,7 +2073,7 @@ picture.jarallax-img img {
 }
 
 .team-skill-card .date {
-  color: #00ff95;
+  color: #00ff80;
   margin-bottom: 8px;
 }
 .team-skill-card .institution {
@@ -2158,7 +2158,7 @@ picture.jarallax-img img {
   height: 60px;
   min-width: 60px;
   border-radius: 50%;
-  background-color: #00ff95;
+  background-color: #00ff80;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2171,7 +2171,7 @@ picture.jarallax-img img {
           justify-content: center;
 }
 .portfolio-card .portfolio-overlay-content a:hover, .portfolio-card .portfolio-overlay-content a:focus {
-  background-color: #ECB50B;
+  background-color: #1fb910;
 }
 .portfolio-card:hover img, .portfolio-card:focus img {
   -webkit-transform: scale(1.1);
@@ -2225,7 +2225,7 @@ picture.jarallax-img img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #00ff95;
+  background-color: #00ff80;
   min-width: 80px;
   border-radius: 50%;
   margin: auto;
@@ -2286,7 +2286,7 @@ picture.jarallax-img img {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ECB50B;
+  background-color: #1fb910;
   content: "";
   top: 50%;
   left: 50%;
@@ -2298,7 +2298,7 @@ picture.jarallax-img img {
   opacity: 0;
 }
 .portfolio-swiper-navigation > div:hover, .portfolio-swiper-navigation > div:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 .portfolio-swiper-navigation > div:hover::before, .portfolio-swiper-navigation > div:focus::before {
   width: 100%;
@@ -2307,7 +2307,7 @@ picture.jarallax-img img {
 }
 
 .catagory-slide {
-  background-color: #00ff95;
+  background-color: #00ff80;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -2375,7 +2375,7 @@ picture.jarallax-img img {
           align-items: center;
 }
 .portfolio-details-content ul li [class^=material-symbols-] {
-  color: #00ff95;
+  color: #00ff80;
   font-size: 24px;
 }
 
@@ -2413,7 +2413,7 @@ picture.jarallax-img img {
   color: #FFFFFF;
 }
 .portfolio-widget .social-nav a:hover, .portfolio-widget .social-nav a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
   color: #1A1A1A;
 }
 
@@ -2534,7 +2534,7 @@ form .form-control::placeholder {
   color: #C8C8CD;
 }
 form .form-control:focus {
-  border: 1px solid #00ff95;
+  border: 1px solid #00ff80;
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: none;
@@ -2572,7 +2572,7 @@ form .btn {
   width: 129px;
   height: 50px;
   border-radius: 30px;
-  background: #00ff95;
+  background: #00ff80;
   gap: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2602,7 +2602,7 @@ form .btn {
           justify-content: center;
   gap: 27px;
   border-radius: 30px;
-  background: #00ff95;
+  background: #00ff80;
   height: 50px;
   padding-left: 24px;
   padding-right: 24px;
@@ -2717,7 +2717,7 @@ form .btn {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ECB50B;
+  background-color: #1fb910;
   content: "";
   top: 50%;
   left: 50%;
@@ -2786,7 +2786,7 @@ form .btn {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background-color: #00ff95;
+  background-color: #00ff80;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2805,7 +2805,7 @@ form .btn {
   top: 0;
   left: 0;
   z-index: -10;
-  background-color: #00ff95;
+  background-color: #00ff80;
   -webkit-animation: video-sonar 2s linear infinite;
           animation: video-sonar 2s linear infinite;
 }
@@ -2825,7 +2825,7 @@ form .btn {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: #00ff95;
+  background-color: #00ff80;
   content: "";
   top: -15px;
   left: -15px;
@@ -2939,7 +2939,7 @@ form .btn {
   }
 }
 .blog-card .blog-meta a:hover, .blog-card .blog-meta a:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 .blog-card .blog-meta .dot {
   width: 4px;
@@ -2970,10 +2970,10 @@ form .btn {
   }
 }
 .blog-card .post-title:hover, .blog-card .post-title:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 .blog-card:hover, .blog-card:focus {
-  border-color: #00ff95;
+  border-color: #00ff80;
 }
 
 .blog-card-two {
@@ -3032,7 +3032,7 @@ form .btn {
   }
 }
 .blog-card-two .blog-content .post-title:hover, .blog-card-two .blog-content .post-title:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 .blog-card-two .blog-content .blog-meta {
   gap: 12px;
@@ -3081,7 +3081,7 @@ form .btn {
   }
 }
 .single-blog .blog-meta a:hover, .single-blog .blog-meta a:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 .single-blog .blog-meta .dot {
   width: 4px;
@@ -3114,7 +3114,7 @@ form .btn {
   }
 }
 .single-blog .post-title:hover, .single-blog .post-title:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 
 .blog-widget {
@@ -3161,7 +3161,7 @@ form .btn {
 .blog-widget form .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #00ff95;
+  border-color: #00ff80;
 }
 .blog-widget form button {
   -webkit-transition-duration: 400ms;
@@ -3180,13 +3180,13 @@ form .btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #00ff95;
+  background-color: #00ff80;
   color: #1A1A1A;
   border-radius: 0 8px 8px 0;
   border: 0;
 }
 .blog-widget form button:hover, .blog-widget form button:focus {
-  background-color: #ECB50B;
+  background-color: #1fb910;
   color: #0E0E0E;
 }
 
@@ -3235,8 +3235,8 @@ form .btn {
   }
 }
 .blog-list li a:hover, .blog-list li a:focus {
-  border-color: #00ff95;
-  background-color: #00ff95;
+  border-color: #00ff80;
+  background-color: #00ff80;
   color: #0E0E0E;
 }
 
@@ -3282,7 +3282,7 @@ form .btn {
   display: block;
 }
 .widget-blog-post .blog-content h6 a:hover, .widget-blog-post .blog-content h6 a:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 @media only screen and (min-width:1200px) {
   .widget-blog-post .blog-content h6 {
@@ -3317,8 +3317,8 @@ form .btn {
   }
 }
 .tag-list a:hover, .tag-list a:focus {
-  border-color: #00ff95;
-  background-color: #00ff95;
+  border-color: #00ff80;
+  background-color: #00ff80;
   color: #0E0E0E;
 }
 
@@ -3353,16 +3353,16 @@ form .btn {
   }
 }
 .blog-pagination li a:hover, .blog-pagination li a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
   color: #0E0E0E;
 }
 .blog-pagination li.active a {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 
 .blog-quote {
   border-radius: 10px;
-  background: #00ff95;
+  background: #00ff80;
   padding: 40px 36px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3466,7 +3466,7 @@ form .btn {
   border-radius: 50%;
 }
 .tags-share .share-list li a:hover, .tags-share .share-list li a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
   color: #0E0E0E;
 }
 
@@ -3500,7 +3500,7 @@ form .btn {
   font-size: 20px;
 }
 .blog-pager a:hover, .blog-pager a:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 
 .blog-comments-list {
@@ -3572,7 +3572,7 @@ form .btn {
   }
 }
 .footer-bottom-nav a:hover, .footer-bottom-nav a:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 
 .subscribe-form {
@@ -3609,7 +3609,7 @@ form .btn {
   width: 50px;
   height: 50px;
   border-radius: 24px;
-  background: #00ff95;
+  background: #00ff80;
   min-width: 50px;
   padding: 0;
   position: absolute;
@@ -3657,7 +3657,7 @@ form .btn {
   color: #FFFFFF;
 }
 .footer-card .social-nav a:hover, .footer-card .social-nav a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
   color: #1A1A1A;
 }
 .footer-card .footer-nav {
@@ -3679,7 +3679,7 @@ form .btn {
   display: block;
 }
 .footer-card .footer-nav li a:hover, .footer-card .footer-nav li a:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 .footer-card .form-check-input {
   width: 20px;
@@ -3696,7 +3696,7 @@ form .btn {
           box-shadow: 0;
 }
 .footer-card .form-check-input:checked[type=checkbox] {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
  
 
@@ -3711,7 +3711,7 @@ form .btn {
   color: #FFFFFF;
 }
 .footer-wrapper.footer-2 .footer-card .social-nav a:hover, .footer-wrapper.footer-2 .footer-card .social-nav a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
   color: #1A1A1A;
 }
 
@@ -3724,7 +3724,7 @@ form .btn {
 
 /* CTA */
 .cta-wrapper {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 .cta-wrapper h2 {
   color: #0E0E0E;
@@ -3793,7 +3793,7 @@ form .btn {
 }
 
 .cta-video-wrapper {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 .cta-video-wrapper .video-wrap {
   position: relative;
@@ -3848,7 +3848,7 @@ form .btn {
   position: relative;
   border-radius: 20px;
   padding: 36px;
-  background: #00ff95;
+  background: #00ff80;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4012,7 +4012,7 @@ form .btn {
   max-width: 450px;
   padding: 40px 32px;
   border-radius: 20px;
-  background-color: #00ff95;
+  background-color: #00ff80;
   opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(-16px);
@@ -4080,7 +4080,7 @@ form .btn {
   color: #FFFFFF;
 }
 .authentification-card .social-nav a:hover, .authentification-card .social-nav a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
   color: #1A1A1A;
 }
 
@@ -4140,7 +4140,7 @@ form .btn {
   position: fixed;
   z-index: 1500;
   padding: 40px 30px;
-  background-color: #00ff95;
+  background-color: #00ff80;
   left: 50%;
   top: 50%;
   min-width: 280px;
@@ -4525,7 +4525,7 @@ form .btn {
 }
 .faq-image .faq-info {
   border-radius: 20px;
-  background: #00ff95;
+  background: #00ff80;
   width: 230px;
   padding: 22px 20px;
   gap: 13px;
@@ -4628,7 +4628,7 @@ form .btn {
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #1A1A1A;
-  background-color: #00ff95;
+  background-color: #00ff80;
   border-radius: 8px 8px 0 0;
 }
 .faq-accordion.service-details-faq .accordion-item .accordion-button:not(.collapsed)::after {
@@ -4637,7 +4637,7 @@ form .btn {
 .faq-accordion.service-details-faq .accordion-item .accordion-body {
   color: #1A1A1A;
   padding-top: 0;
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 @media only screen and (min-width:1200px) {
   .faq-accordion.service-details-faq .accordion-item .accordion-body {
@@ -4716,7 +4716,7 @@ form .btn {
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
-  background-color: #00ff95;
+  background-color: #00ff80;
   border-radius: 6px;
 }
 .breadcrumb-wrapper .breadcrumb-content ul li {
@@ -4983,7 +4983,7 @@ form .btn {
           justify-content: center;
   width: 100px;
   height: 100px;
-  background-color: #00ff95;
+  background-color: #00ff80;
   border-radius: 50%;
   color: #0E0E0E;
   font-size: 42px;
@@ -5118,13 +5118,13 @@ form .btn {
 }
 .core-feature-card span {
   font-size: 60px;
-  color: #00ff95;
+  color: #00ff80;
 }
 .core-feature-card svg {
-  color: #00ff95;
+  color: #00ff80;
 }
 .core-feature-card .npm {
-  background-color: #00ff95;
+  background-color: #00ff80;
   padding: 4px;
   line-height: 1;
   color: #0E0E0E;
@@ -5141,7 +5141,7 @@ form .btn {
 .core-feature-card:hover, .core-feature-card:focus {
   -webkit-transform: scale(1.04);
           transform: scale(1.04);
-  border-color: #00ff95;
+  border-color: #00ff80;
 }
 
 .client-testimonial-card {
@@ -5158,7 +5158,7 @@ form .btn {
       -ms-flex-align: center;
           align-items: center;
   gap: 5px;
-  color: #00ff95;
+  color: #00ff80;
   margin-bottom: 20px;
 }
 .client-testimonial-card .ratings span {
@@ -5216,7 +5216,7 @@ form .btn {
           justify-content: center;
   width: 100px;
   height: 100px;
-  background-color: #00ff95;
+  background-color: #00ff80;
   border-radius: 50%;
   color: #0E0E0E;
   font-size: 42px;
@@ -5277,7 +5277,7 @@ form .btn {
   color: #0E0E0E;
 }
 .light-mode .header-area .navbar-nav li .vorix-dd-menu li > a:hover, .light-mode .header-area .navbar-nav li .vorix-dd-menu li > a:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 .light-mode .header-area.sticky-on {
   -webkit-box-shadow: 0 1rem 3rem rgba(15, 30, 150, 0.175);
@@ -5333,8 +5333,8 @@ form .btn {
   color: #0E0E0E;
 }
 .light-mode .service-slide-card:hover, .light-mode .service-slide-card:focus {
-  border-color: #00ff95;
-  background-color: #00ff95;
+  border-color: #00ff80;
+  background-color: #00ff80;
 }
 .light-mode .about-us-thumbnail .top-content {
   background: #FEFEFE;
@@ -5395,7 +5395,7 @@ form .btn {
   color: #1A1A1A;
 }
 .light-mode .blog-card .blog-meta a:hover, .light-mode .blog-card .blog-meta a:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 .light-mode .blog-card .blog-meta .dot {
   background-color: #1A1A1A;
@@ -5404,7 +5404,7 @@ form .btn {
   color: #0E0E0E;
 }
 .light-mode .blog-card .post-title:hover, .light-mode .blog-card .post-title:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 .light-mode .blog-card:hover, .light-mode .blog-card:focus {
   border-color: rgba(26, 26, 26, 0.5);
@@ -5413,14 +5413,14 @@ form .btn {
   color: #1A1A1A;
 }
 .light-mode .footer-card .footer-nav li a:hover, .light-mode .footer-card .footer-nav li a:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 .light-mode .footer-card .social-nav a {
   background-color: #F6F5F3;
   color: #0E0E0E;
 }
 .light-mode .footer-card .social-nav a:hover, .light-mode .footer-card .social-nav a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 .light-mode .footer-wrapper {
   background-color: #FEFEFE;
@@ -5430,7 +5430,7 @@ form .btn {
   color: #1A1A1A;
 }
 .light-mode .footer-wrapper.footer-2 .footer-card .social-nav a:hover, .light-mode .footer-wrapper.footer-2 .footer-card .social-nav a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 .light-mode .subscribe-form .form-control {
   border-color: rgba(26, 26, 26, 0.3);
@@ -5454,7 +5454,7 @@ form .btn {
 }
 .light-mode .footer-bottom-nav a:hover,
 .light-mode .footer-bottom-nav a:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 .light-mode .right-side-vorix-offcanvas {
   background-color: #F6F5F3;
@@ -5469,7 +5469,7 @@ form .btn {
   background-color: #FEFEFE;
 }
 .light-mode .right-side-vorix-offcanvas .offcanvas-body .social-nav a:hover, .light-mode .right-side-vorix-offcanvas .offcanvas-body .social-nav a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 .light-mode .right-side-vorix-offcanvas .offcanvas-body .contact-info > div .icon {
   background-color: #FEFEFE;
@@ -5567,7 +5567,7 @@ form .btn {
   color: #0E0E0E;
 }
 .light-mode .service-list li a:hover, .light-mode .service-list li a:focus {
-  border-color: #00ff95;
+  border-color: #00ff80;
 }
 .light-mode .authentification-card {
   background-color: #F6F5F3;
@@ -5583,7 +5583,7 @@ form .btn {
   color: #1A1A1A;
 }
 .light-mode .authentification-card .social-nav a:hover, .light-mode .authentification-card .social-nav a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 .light-mode .team-details-content .team-member-title {
   color: #1A1A1A;
@@ -5593,7 +5593,7 @@ form .btn {
   color: #1A1A1A;
 }
 .light-mode .team-details-content .social-nav a:hover, .light-mode .team-details-content .social-nav a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 .light-mode .team-progress-bar {
   background-color: #1A1A1A;
@@ -5623,19 +5623,19 @@ form .btn {
   color: #1A1A1A;
 }
 .light-mode .portfolio-widget .social-nav a:hover, .light-mode .portfolio-widget .social-nav a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 .light-mode .single-blog .post-title {
   color: #1A1A1A;
 }
 .light-mode .single-blog .post-title:hover, .light-mode .single-blog .post-title:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 .light-mode .single-blog .blog-meta a {
   color: #0E0E0E;
 }
 .light-mode .single-blog .blog-meta a:hover, .light-mode .single-blog .blog-meta a:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 .light-mode .blog-widget {
   background-color: #F6F5F3;
@@ -5648,13 +5648,13 @@ form .btn {
 .light-mode .blog-list li a:hover, .light-mode .blog-list li a:focus,
 .light-mode .tag-list a:hover,
 .light-mode .tag-list a:focus {
-  border-color: #00ff95;
+  border-color: #00ff80;
 }
 .light-mode .blog-pagination li a {
   background-color: #F6F5F3;
 }
 .light-mode .blog-pagination li a:hover, .light-mode .blog-pagination li a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 .light-mode .tags-share .tags-list li a {
   color: #1A1A1A;
@@ -5669,13 +5669,13 @@ form .btn {
   background-color: #F6F5F3;
 }
 .light-mode .tags-share .share-list li a:hover, .light-mode .tags-share .share-list li a:focus {
-  background-color: #00ff95;
+  background-color: #00ff80;
 }
 .light-mode .blog-pager a {
   color: #1A1A1A;
 }
 .light-mode .blog-pager a:hover, .light-mode .blog-pager a:focus {
-  color: #00ff95;
+  color: #00ff80;
 }
 .light-mode .blog-pager {
   border-top-color: rgba(26, 26, 26, 0.3);

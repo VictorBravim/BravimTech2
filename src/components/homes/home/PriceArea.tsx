@@ -24,8 +24,8 @@ const PriceArea = ({ style_2 }: any) => {
             <div className="col-12 col-md-6 col-lg-4">
               <div className="price-card">
                 <div className="price-info">
-                  <h6>Inicial</h6>
-                  <h3 className="price">$110 <span>/mês</span></h3>
+                  <h6>WebSite</h6>
+                  <h3 className="price">R$2.500</h3>
                   <p className="mb-0">Priorizamos o sucesso deles, pois isso impulsiona relacionamentos autênticos.</p>
                 </div>
 
@@ -47,8 +47,8 @@ const PriceArea = ({ style_2 }: any) => {
             <div className="col-12 col-md-6 col-lg-4">
               <div className="price-card">
                 <div className="price-info">
-                  <h6>Profissional</h6>
-                  <h3 className="price">$130 <span>/mês</span></h3>
+                  <h6>Identidade Visual</h6>
+                  <h3 className="price">R$750</h3>
                   <p className="mb-0">Priorizamos o sucesso deles, pois isso impulsiona relacionamentos autênticos.</p>
                 </div>
 
@@ -70,8 +70,8 @@ const PriceArea = ({ style_2 }: any) => {
             <div className="col-12 col-md-6 col-lg-4">
               <div className="price-card">
                 <div className="price-info">
-                  <h6>Exclusivo</h6>
-                  <h3 className="price">$140 <span>/mês</span></h3>
+                  <h6>Otimização SEO</h6>
+                  <h3 className="price">R$1.250</h3>
                   <p className="mb-0">Priorizamos o sucesso deles, pois isso impulsiona relacionamentos autênticos.</p>
                 </div>
 

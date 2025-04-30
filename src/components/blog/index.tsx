@@ -10,7 +10,7 @@ const Blog = () => {
   return (
     <>
       <HeaderOne />
-      <Breacrumb title="Blog" subtitle="Blog" />
+      <Breacrumb title="Nosso Blog" subtitle="Blog" />
       <BlogArea />
       <Cta2Area />
       <FooterOne />

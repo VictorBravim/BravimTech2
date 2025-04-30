@@ -9,7 +9,7 @@ const Contact = () => {
 	return (
 		<>
 			<HeaderOne />
-			<Breacrumb title="Contact us" subtitle="Contact" />
+			<Breacrumb title="Entre em Contato" subtitle="Contato" />
 			<ContactArea />
 			<Cta2Area />
 			<FooterOne />

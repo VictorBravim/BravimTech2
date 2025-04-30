@@ -12,7 +12,7 @@ const Breacrumb = ({title, subtitle}: any) => {
          <div className="breadcrumb-content h-100">
             <h2 className="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="700ms">{title}</h2>
             <ul className="list-unstyled wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1000ms">
-               <li><Link href="/">Home</Link></li>
+               <li><Link href="/">Inicio</Link></li>
                <li>{subtitle}</li>
             </ul>
          </div>

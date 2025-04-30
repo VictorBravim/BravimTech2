@@ -27,8 +27,8 @@ const ContactArea = () => {
                   </svg>
                 </div>
 
-                <p className="mb-0">Phone number</p>
-                <h4>+44 204 577 0077</h4>
+                <p className="mb-0">Número de telefone</p>
+                <h4>+55 (12) 9661-9995</h4>
               </div>
             </div>
 
@@ -43,8 +43,8 @@ const ContactArea = () => {
                   </svg>
                 </div>
 
-                <p className="mb-0">Email address</p>
-                <h4>Vorix@gmail.com</h4>
+                <p className="mb-0">Endereço de e-mail</p>
+                <h4>bravimtech@gmail.com</h4>
               </div>
             </div>
 
@@ -59,8 +59,8 @@ const ContactArea = () => {
                   </svg>
                 </div>
 
-                <p className="mb-0">Office Address</p>
-                <h4>Washington Ave, NY</h4>
+                <p className="mb-0">Endereço do escritório</p>
+                <h4>Porto Alegre - RS</h4>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ const ContactArea = () => {
 
         <div className="maps-wrap">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25280012016!2d-74.14448732737499!3d40.69763123331177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1732385899288!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.013408404177!2d-51.18351268488455!3d-30.02768328188575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519782b1ddf1e6b%3A0xeca58cedd2cd0c53!2sPlatinum%20Tower!5e0!3m2!1sen!2sbr!4v1732385899288!5m2!1sen!2sbr"
             referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
@@ -82,7 +82,7 @@ const ContactArea = () => {
               <div className="col-12 col-lg-10">
                 <div className="contact-form bg-secondary m-0 mt-0">
                   <div className="section-heading text-center">
-                    <h2>Have Questions? <br />Contact us!</h2>
+                    <h2>Tem dúvidas? <br />Entre em contato conosco!</h2>
                   </div>
 
                   <div className="divider-sm"></div>
@@ -90,29 +90,29 @@ const ContactArea = () => {
                   <form onClick={(e) => e.preventDefault()}>
                     <div className="row g-4 g-xl-5">
                       <div className="col-12 col-lg-6">
-                        <input type="text" className="form-control" placeholder="Your Name" />
+                        <input type="text" className="form-control" placeholder="Seu Nome" />
                       </div>
                       <div className="col-12 col-lg-6">
-                        <input type="email" className="form-control" placeholder="Email Address" />
+                        <input type="email" className="form-control" placeholder="Endereço de E-mail" />
                       </div>
                       <div className="col-12 col-lg-6">
-                        <input type="text" className="form-control" placeholder="Your Phone" />
+                        <input type="text" className="form-control" placeholder="Seu Telefone" />
                       </div>
                       <div className="col-12 col-lg-6">
                         <select className="form-control">
-                          <option value="">Select Subject</option>
-                          <option value="">Help &amp; Support</option>
-                          <option value="">Features Inquiry</option>
+                          <option value="">Selecionar Assunto</option>
+                          <option value="">Ajuda e Suporte</option>
+                          <option value="">Consulta sobre Recursos</option>
                         </select>
                       </div>
                       <div className="col-12">
                         <textarea className="form-control" rows={20} cols={30}
-                          placeholder="Type your message"></textarea>
+                          placeholder="Digite sua mensagem"></textarea>
                       </div>
                       <div className="col-12">
                         <div className="text-center">
-                          <button type="submit" className="btn btn-primary rounded-pill"><span>SEND
-                            MESSAGE</span><span>SEND MESSAGE</span></button>
+                          <button type="submit" className="btn btn-primary rounded-pill"><span>ENVIAR
+                            MENSAGEM</span><span>ENVIAR MENSAGEM</span></button>
                         </div>
                       </div>
                     </div>

@@ -5,9 +5,11 @@ const TeamArea = () => {
   return (
     <>
       <div className="team-member-wrapper">
+        <div className="divider"></div>
+
         <div className="container">
-          <div className="row g-4">
-            <div>
+          <div className="row g-5">
+            <div className="col-12 col-lg-5">
               <div className="section-heading">
                 <h2 className="mb-4">Nossa Equipe</h2>
                 <Link href="/team" className="btn-link">
@@ -30,9 +32,9 @@ const TeamArea = () => {
               </div>
             </div>
 
-            <div className="">
-              <div className="row">
-                <div className="col-12 col-sm-3">
+            <div className="col-12 col-lg-7">
+              <div className="row g-4">
+                <div className="col-12 col-sm-6">
                   <Link href="/team-details">
                     <div className="team-card">
                       <img
@@ -48,7 +50,7 @@ const TeamArea = () => {
                   </Link>
                 </div>
 
-                <div className="col-12 col-sm-3">
+                <div className="col-12 col-sm-6">
                   <Link href="/team-details">
                     <div className="team-card">
                       <img
@@ -64,7 +66,7 @@ const TeamArea = () => {
                   </Link>
                 </div>
 
-                <div className="col-12 col-sm-3">
+                <div className="col-12 col-sm-6">
                   <Link href="/team-details">
                     <div className="team-card">
                       <img
@@ -80,7 +82,7 @@ const TeamArea = () => {
                   </Link>
                 </div>
 
-                <div className="col-12 col-sm-3">
+                <div className="col-12 col-sm-6">
                   <Link href="/team-details">
                     <div className="team-card">
                       <img

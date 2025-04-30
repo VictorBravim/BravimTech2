@@ -1,5 +1,5 @@
  
-import Aboutus from "@/components/about-us"; 
+import Aboutus from "@/components/about"; 
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {

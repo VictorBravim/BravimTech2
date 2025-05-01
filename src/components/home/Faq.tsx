@@ -1,6 +1,41 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const FaqArea = ({ style_2 }: any) => {
+  const [activeIndex, setActiveIndex] = useState(0); // Primeiro item aberto por padrão, como na imagem
+
+  const faqs = [
+    {
+      question: "Qual é a visão para o futuro?",
+      answer:
+        "Nossa visão é capacitar empresas a alcançar seu potencial máximo por meio de soluções inovadoras e estratégias personalizadas.",
+    },
+    {
+      question: "Vocês oferecem recursos gratuitos?",
+      answer:
+        "Sim, oferecemos diversos recursos gratuitos, como guias, webinars e ferramentas de análise para ajudar no crescimento do seu negócio.",
+    },
+    {
+      question: "Podem ajudar a encontrar investidores?",
+      answer:
+        "Sim, conectamos nossos clientes a uma rede de investidores e oferecemos suporte na elaboração de pitches e estratégias de captação de recursos.",
+    },
+    {
+      question: "Como vocês personalizam suas soluções?",
+      answer:
+        "Analisamos as necessidades específicas de cada cliente e desenvolvemos estratégias sob medida para atender aos seus objetivos de negócios.",
+    },
+    {
+      question: "Quais serviços vocês oferecem?",
+      answer:
+        "Oferecemos consultoria em estratégia, marketing digital, gestão financeira, desenvolvimento de tecnologia e muito mais.",
+    },
+  ];
+
+  const toggleAccordion = (index: number) => {
+    setActiveIndex(activeIndex === index ? -1 : index);
+  };
+
   return (
     <>
       <div className={`faq-wrapper ${style_2 ? "bg-secondary" : ""}`}>
@@ -26,137 +61,32 @@ const FaqArea = ({ style_2 }: any) => {
 
             <div className="col-12 col-lg-6">
               <div className="faq-accordion ps-lg-4">
-                <div className="accordion" id="faqAccordion">
-                  <div className="accordion-item">
+                {faqs.map((faq, index) => (
+                  <div className="accordion-item" key={index}>
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button"
+                        className={`accordion-button1 ${
+                          activeIndex === index ? "active" : ""
+                        }`}
                         type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqQuestion1"
-                        aria-expanded="true"
-                        aria-controls="faqQuestion1"
+                        onClick={() => toggleAccordion(index)}
+                        aria-expanded={activeIndex === index}
                       >
-                        Qual é a visão para o futuro?
+                        {faq.question}
+                        <span className="accordion-icon">
+                          {activeIndex === index ? "−" : "+"}
+                        </span>
                       </button>
                     </h2>
                     <div
-                      id="faqQuestion1"
-                      className="accordion-collapse collapse show"
-                      data-bs-parent="#faqAccordion"
+                      className={`accordion-collapse ${
+                        activeIndex === index ? "show" : ""
+                      }`}
                     >
-                      <div className="accordion-body pt-0">
-                        Um consultor de negócios é um profissional que fornece
-                        conselhos especializados e orientação em diversos
-                        aspectos.
-                      </div>
+                      <div className="accordion-body pt-0">{faq.answer}</div>
                     </div>
                   </div>
-
-                  <div className="accordion-item">
-                    <h2 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqQuestion2"
-                        aria-expanded="false"
-                        aria-controls="faqQuestion2"
-                      >
-                        Vocês oferecem recursos gratuitos?
-                      </button>
-                    </h2>
-                    <div
-                      id="faqQuestion2"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#faqAccordion"
-                    >
-                      <div className="accordion-body pt-0">
-                        Um consultor de negócios é um profissional que fornece
-                        conselhos especializados e orientação em diversos
-                        aspectos.
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="accordion-item">
-                    <h2 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqQuestion3"
-                        aria-expanded="false"
-                        aria-controls="faqQuestion3"
-                      >
-                        Podem ajudar a encontrar investidores?
-                      </button>
-                    </h2>
-                    <div
-                      id="faqQuestion3"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#faqAccordion"
-                    >
-                      <div className="accordion-body pt-0">
-                        Um consultor de negócios é um profissional que fornece
-                        conselhos especializados e orientação em diversos
-                        aspectos.
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="accordion-item">
-                    <h2 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqQuestion4"
-                        aria-expanded="false"
-                        aria-controls="faqQuestion4"
-                      >
-                        Podem ajudar a encontrar investidores?
-                      </button>
-                    </h2>
-                    <div
-                      id="faqQuestion4"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#faqAccordion"
-                    >
-                      <div className="accordion-body pt-0">
-                        Um consultor de negócios é um profissional que fornece
-                        conselhos especializados e orientação em diversos
-                        aspectos.
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="accordion-item">
-                    <h2 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqQuestion5"
-                        aria-expanded="false"
-                        aria-controls="faqQuestion5"
-                      >
-                        Quais serviços vocês oferecem?
-                      </button>
-                    </h2>
-                    <div
-                      id="faqQuestion5"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#faqAccordion"
-                    >
-                      <div className="accordion-body pt-0">
-                        Um consultor de negócios é um profissional que fornece
-                        conselhos especializados e orientação em diversos
-                        aspectos.
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

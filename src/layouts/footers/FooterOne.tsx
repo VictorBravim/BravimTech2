@@ -183,7 +183,7 @@ const FooterOne = ({ style_2 }: any) => {
 
             <div className="col-12 col-lg-6">
               <div className="footer-bottom-nav">
-                <a href="#">Termos e condições</a>
+                <a href="#">Termos & condições</a>
                 <a href="#">Política de privacidade</a>
               </div>
             </div>

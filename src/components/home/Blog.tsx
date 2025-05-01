@@ -38,6 +38,9 @@ const BlogArea = () => {
                 <Link className="post-title" href="/blog-details">
                   Fornecendo ideias brilhantes para o seu negócio
                 </Link>
+                <Link className="read-more" href="/blog-details">
+                  Leia Mais
+                </Link>
               </div>
             </div>
 
@@ -52,6 +55,9 @@ const BlogArea = () => {
                 <Link className="post-title" href="/blog-details">
                   Tudo o que você precisa saber sobre retorno
                 </Link>
+                <Link className="read-more" href="/blog-details">
+                  Leia Mais
+                </Link>
               </div>
             </div>
 
@@ -65,6 +71,9 @@ const BlogArea = () => {
                 </div>
                 <Link className="post-title" href="/blog-details">
                   Principais ferramentas para desenvolvimento web eficiente
+                </Link>
+                <Link className="read-more" href="/blog-details">
+                  Leia Mais
                 </Link>
               </div>
             </div>

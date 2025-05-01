@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 import { useState } from "react";
 import CountUp from "react-countup";
 import { InView } from "react-intersection-observer";
@@ -24,12 +23,17 @@ const Count = ({ number, text, add_style }: CountType) => {
     <>
       <CountUp start={focus ? 0 : undefined} end={number} duration={2}>
         {({ countUpRef }) => (
-          <div className={`d-flex ${add_style ? "align-items-center justify-content-center" : ""} `}>
+          <div
+            className={`d-flex ${
+              add_style ? "align-items-center justify-content-center" : ""
+            } `}
+          >
             <span ref={countUpRef} />
             <InView
               as="span"
-              onChange={(inView: any) => visibleChangeHandler(inView)}>
-              {text && <span>{text}</span>} 
+              onChange={(inView: any) => visibleChangeHandler(inView)}
+            >
+              {text && <span>{text}</span>}
             </InView>
           </div>
         )}

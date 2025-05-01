@@ -1,12 +1,81 @@
 
-
 @import url("https://fonts.googleapis.com");
-@import url("https://fonts.gstatic.com"); 
+@import url("https://fonts.gstatic.com");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap");
- 
-@import "swiper/css/bundle";   
-@import "bootstrap/dist/css/bootstrap.css"; 
+
+@import "swiper/css/bundle";
+@import "bootstrap/dist/css/bootstrap.css";
 
 @import url("../../public/assets/css/animate.css");
 @import url("../../public/assets/css/bootstrap.min.css");
 @import url("../../public/assets/css/style.css");
+
+.accordion-item {
+    border: 1px solid #dee2e6;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    /* Bordas arredondadas como na imagem */
+    background: #fff;
+}
+
+.accordion-header {
+    margin: 0;
+}
+
+.accordion-button1 {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: none;
+    width: 100%;
+    padding: 20px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #212529;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
+
+.accordion-icon {
+    display: flex !important;
+    font-size: 24px;
+    font-weight: bold;
+    color: #212529;
+    line-height: 1;
+    text-align: right;
+}
+
+.accordion-button:hover {
+    background: #f0f6ff;
+    /* Cor de fundo leve ao passar o mouse */
+}
+
+.accordion-button.active {
+    background: #fff;
+    /* Sem mudança de fundo quando ativo, como na imagem */
+    color: #212529;
+}
+
+.accordion-collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-collapse.show {
+    max-height: 200px;
+    /* Ajuste conforme o tamanho do conteúdo */
+}
+
+.accordion-body {
+    padding: 0 25px 20px 25px;
+    /* Padding ajustado, sem padding no topo como na imagem */
+    background: #fff;
+    font-size: 16px;
+    color: #666;
+    /* Cor do texto da resposta, um cinza mais claro */
+    border-radius: 0 0 15px 15px;
+    /* Bordas arredondadas apenas na parte inferior */
+}

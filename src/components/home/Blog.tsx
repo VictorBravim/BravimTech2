@@ -12,9 +12,9 @@ const BlogArea = () => {
             <div className="col-12">
               <div className="section-heading d-md-flex align-items-end justify-content-between">
                 <h2 className="mb-4 mb-md-0">
-                  Blogs Recentes <br />e Notícias
+                  Blog & Notícias
                 </h2>
-                <a href="#" className="btn btn-primary">
+                <a href="/blog" className="btn btn-primary">
                   <span>TODOS OS BLOGS</span>
                   <span>TODOS OS BLOGS</span>
                 </a>
@@ -38,9 +38,6 @@ const BlogArea = () => {
                 <Link className="post-title" href="/blog-details">
                   Fornecendo ideias brilhantes para o seu negócio
                 </Link>
-                <Link className="read-more" href="/blog-details">
-                  Leia Mais
-                </Link>
               </div>
             </div>
 
@@ -55,9 +52,6 @@ const BlogArea = () => {
                 <Link className="post-title" href="/blog-details">
                   Tudo o que você precisa saber sobre retorno
                 </Link>
-                <Link className="read-more" href="/blog-details">
-                  Leia Mais
-                </Link>
               </div>
             </div>
 
@@ -71,9 +65,6 @@ const BlogArea = () => {
                 </div>
                 <Link className="post-title" href="/blog-details">
                   Principais ferramentas para desenvolvimento web eficiente
-                </Link>
-                <Link className="read-more" href="/blog-details">
-                  Leia Mais
                 </Link>
               </div>
             </div>

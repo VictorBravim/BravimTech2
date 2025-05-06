@@ -1,42 +1,42 @@
 "use client";
+
 import OffCanvas from "@/common/OffCanvas";
 import menu_data from "@/data/menu-data";
 import useSticky from "@/hooks/use-sticky";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const HeaderOne = ({ style_2 }: any) => {
-  const [theme, setTheme] = useState("light-mode"); // Valor padrão no servidor
+const HeaderOne = ({ style_2 }: { style_2?: boolean }) => {
   const { sticky } = useSticky();
   const [menuOpen, setMenuOpen] = useState(false);
   const [openCanvas, setOpenCavas] = useState(false);
+  const [isLightMode, setIsLightMode] = useState(false);
 
-  // Lógica de tema executada apenas no cliente
+  // Aplica o tema apenas no cliente
   useEffect(() => {
-    // Recupera o tema do localStorage ou usa a preferência do sistema
-    const savedTheme = localStorage.getItem("theme") || 
-                      (window.matchMedia("(prefers-color-scheme: light)").matches ? "light-mode" : "dark-mode");
-    setTheme(savedTheme);
-    document.body.className = savedTheme;
-    localStorage.setItem("theme", savedTheme);
+    // Pega o tema salvo ou usa a preferência do sistema
+    const savedTheme = localStorage.getItem("theme");
+    const prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
+    const isLight = savedTheme === "light-mode" || (!savedTheme && prefersLight);
+
+    setIsLightMode(isLight);
+    document.body.className = isLight ? "light-mode" : "";
+    localStorage.setItem("theme", isLight ? "light-mode" : "dark-mode");
   }, []);
 
   const toggleTheme = () => {
-    setTheme((prevTheme) =>
-      prevTheme === "light-mode" ? "dark-mode" : "light-mode"
-    );
+    setIsLightMode((prev) => {
+      const newIsLight = !prev;
+      document.body.className = newIsLight ? "light-mode" : "";
+      localStorage.setItem("theme", newIsLight ? "light-mode" : "dark-mode");
+      return newIsLight;
+    });
   };
-
-  // Atualiza o tema no body e localStorage quando o tema mudar
-  useEffect(() => {
-    document.body.className = theme;
-    localStorage.setItem("theme", theme);
-  }, [theme]);
 
   return (
     <>
       <header
-        className={`header-area ${sticky && "sticky-on"} ${
+        className={`header-area ${sticky ? "sticky-on" : ""} ${
           menuOpen ? "mobile-menu-open" : ""
         }`}
       >
@@ -89,7 +89,7 @@ const HeaderOne = ({ style_2 }: any) => {
                   id="theme-toggle"
                   onClick={toggleTheme}
                   className={`theme-btn ${
-                    theme === "light-mode" ? "" : "light-mode-active"
+                    isLightMode ? "" : "light-mode-active"
                   }`}
                 >
                   <span className="material-symbols-outlined moon">
@@ -178,7 +178,6 @@ const HeaderOne = ({ style_2 }: any) => {
         </nav>
       </header>
 
-      {/* Componente off-canvas */}
       <OffCanvas setOpenCavas={setOpenCavas} openCanvas={openCanvas} />
     </>
   );

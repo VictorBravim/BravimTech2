@@ -13,9 +13,7 @@ const TestimonialArea = () => {
           <div className="row g-5">
             <div className="col-12 col-lg-6">
               <div className="section-heading">
-                <h2 className="mb-0">
-                  O Que os Clientes Dizem Sobre Nossos Serviços
-                </h2>
+                <h2 className="mb-0">O Que Nossos Clientes Dizem</h2>
               </div>
             </div>
 
@@ -64,12 +62,7 @@ const TestimonialArea = () => {
                     </div>
 
                     <p>
-                      “Ele entregou rapidamente um design excelente conforme as
-                      especificações exigidas. A nova página de destino terá um
-                      visual simples e renovado, mantendo o carregamento leve em
-                      imagens e, ao mesmo tempo, um aspecto profissional. Além
-                      disso, parece muito razoável implementar um design
-                      responsivo, então estou muito satisfeito com isso.”
+                      “A equipe foi incrível! Desenvolveram nosso site com rapidez, entregando um design moderno e funcional. A comunicação foi clara e o resultado superou nossas expectativas. Recomendo muito!”
                     </p>
                     <div className="border-line"></div>
                     <div className="testimonial-info d-flex align-items-center">
@@ -78,8 +71,8 @@ const TestimonialArea = () => {
                         alt="Foto do cliente"
                       />
                       <div>
-                        <h4>Daniyel Karlos</h4>
-                        <p className="mb-0">Designer UX</p>
+                        <h4>Mariana Silva</h4>
+                        <p className="mb-0">Empresária</p>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -111,13 +104,9 @@ const TestimonialArea = () => {
                         <span>54 Avaliações</span>
                       </div>
                     </div>
+
                     <p>
-                      “Ele entregou rapidamente um design excelente conforme as
-                      especificações exigidas. A nova página de destino terá um
-                      visual simples e renovado, mantendo o carregamento leve em
-                      imagens e, ao mesmo tempo, um aspecto profissional. Além
-                      disso, parece muito razoável implementar um design
-                      responsivo, então estou muito satisfeito com isso.”
+                      “O site ficou perfeito, com design limpo e navegação fluida. A equipe foi super atenciosa, captando exatamente o que precisávamos. O suporte pós-lançamento também é excelente!”
                     </p>
                     <div className="border-line"></div>
                     <div className="testimonial-info d-flex align-items-center">
@@ -126,8 +115,8 @@ const TestimonialArea = () => {
                         alt="Foto do cliente"
                       />
                       <div>
-                        <h4>Daniyel Karlos</h4>
-                        <p className="mb-0">Designer UX</p>
+                        <h4>Lucas Oliveira</h4>
+                        <p className="mb-0">Empreendedor</p>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -159,13 +148,9 @@ const TestimonialArea = () => {
                         <span>54 Avaliações</span>
                       </div>
                     </div>
+
                     <p>
-                      “Ele entregou rapidamente um design excelente conforme as
-                      especificações exigidas. A nova página de destino terá um
-                      visual simples e renovado, mantendo o carregamento leve em
-                      imagens e, ao mesmo tempo, um aspecto profissional. Além
-                      disso, parece muito razoável implementar um design
-                      responsivo, então estou muito satisfeito com isso.”
+                      “Contratamos o serviço de SEO e os resultados foram surpreendentes! Nosso site ganhou visibilidade rapidamente, e a equipe nos guiou em cada etapa com muita clareza.”
                     </p>
                     <div className="border-line"></div>
                     <div className="testimonial-info d-flex align-items-center">
@@ -174,8 +159,8 @@ const TestimonialArea = () => {
                         alt="Foto do cliente"
                       />
                       <div>
-                        <h4>Daniyel Karlos</h4>
-                        <p className="mb-0">Designer UX</p>
+                        <h4>Camila Santos</h4>
+                        <p className="mb-0">Gerente de Marketing</p>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -190,7 +175,7 @@ const TestimonialArea = () => {
                         fill="none"
                       >
                         <path
-                          d="M3.22024 13.8603L10.5175 21.1576C10.746 21.3861 11.0559 21.5144 11.379 21.5144C11.7021 21.5144 12.012 21.3861 12.2405 21.1576C12.469 20.9291 12.5973 20.6192 12.5973 20.2961C12.5973 19.973 12.469 19.6631 12.2405 19.4346L7.0199 14.216H21.9185C22.2411 14.216 22.5505 14.0879 22.7785 13.8598C23.0066 13.6317 23.1348 13.3224 23.1348 12.9998C23.1348 12.6773 23.0066 12.3679 22.7785 12.1398C22.5505 11.9117 22.2411 11.7836 21.9185 11.7836H7.0199L12.2385 6.56199C12.467 6.33351 12.5953 6.02362 12.5953 5.7005C12.5953 5.37738 12.467 5.0675 12.2385 4.83902C12.01 4.61054 11.7001 4.48218 11.377 4.48218C11.0539 4.48218 10.744 4.61054 10.5155 4.83902L3.21821 12.1363C3.10481 12.2495 3.01487 12.3839 2.95357 12.5319C2.89227 12.6799 2.86081 12.8385 2.861 12.9987C2.86119 13.1589 2.89302 13.3175 2.95467 13.4654C3.01632 13.6132 3.10657 13.7474 3.22024 13.8603Z"
+                          d="M3.22024 13.8603L10.5175 21.1576C10.746 21.3861 11.0559 21.5144 11.379 21.5144C11.7021 21.5144 12.012 21.3861 12.2405 21.1576C12.469 20.9291 12.5973 20.6192 12.5973 20.2961C12.5973 19.973 12.469 19.6631 12.2405 19.4346L7.0199 14.216H21.9185C22.2411 14.216 22.5505 14.0879 22.7785 13.8598C22.7785 13.8598 22.7785 13.8598 22.7785 13.8598C23.0066 13.6317 23.1348 13.3224 23.1348 12.9998C23.1348 12.6773 23.0066 12.3679 22.7785 12.1398C22.5505 11.9117 22.2411 11.7836 21.9185 11.7836H7.0199L12.2385 6.56199C12.467 6.33351 12.5953 6.02362 12.5953 5.7005C12.5953 5.37738 12.467 5.0675 12.2385 4.83902C12.01 4.61054 11.7001 4.48218 11.377 4.48218C11.0539 4.48218 10.744 4.61054 10.5155 4.83902L3.21821 12.1363C3.10481 12.2495 3.01487 12.3839 2.95357 12.5319C2.89227 12.6799 2.86081 12.8385 2.861 12.9987C2.86119 13.1589 2.89302 13.3175 2.95467 13.4654C3.01632 13.6132 3.10657 13.7474 3.22024 13.8603Z"
                           fill="#0E0E0E"
                         />
                       </svg>

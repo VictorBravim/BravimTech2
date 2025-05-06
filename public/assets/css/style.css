@@ -220,10 +220,63 @@ textarea:invalid {
   }
 }
 
+/* Custom */
+
+.service-slide-card:hover .service-title {
+  transform: translateY(-100px);
+  transition: transform 0.3s ease;
+}
+.service-title {
+  transition: transform 0.3s ease;
+}
+.service-description {
+  position: absolute;
+  bottom: 0;
+  left: 36px;
+  right: 36px;
+  transition: all 0.3s linear;
+  margin: 0;
+  z-index: 1;
+}
+.service-slide-card:hover p.service-description {
+  bottom: 45px;
+  opacity: 1;
+  visibility: visible;
+}
+.light-mode .service-slide-card {
+  border-color: rgba(26, 26, 26, 0.3);
+  background: #FEFEFE;
+}
+.light-mode .service-slide-card i,
+.light-mode .service-slide-card span {
+  color: #0E0E0E;
+}
+.light-mode .service-slide-card:hover, .light-mode .service-slide-card:focus {
+  border-color: #00ff80;
+  background-color: #00ff80;
+}
+/* Efeito automático no slide ativo em mobile */
+@media (max-width: 768px) {
+  .light-mode .swiper-slide-active .service-slide-card {
+    border-color: #00ff80;
+    background-color: #00ff80;
+  }
+  .swiper-slide-active .service-slide-card .service-title {
+    transform: translateY(-100px);
+  }
+  .light-mode .swiper-slide-active .service-slide-card p.service-description {
+    bottom: 45px;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+
+
 /* Shortcodes */
 
 .space {
-  margin-left: 110px;
+  margin-left: 175px;
   color: transparent;
 }
 
@@ -548,6 +601,15 @@ ol li {
 .jarallax {
   position: relative;
   z-index: 0;
+  border-radius: 20px !important;
+}
+
+.cta-video-wrapper .video-wrap .jarallax-container {
+  border-radius: 20px !important;
+}
+
+.jarallax-rounded {
+  border-radius: 20px !important; /* Aplica borda apenas na página desejada */
 }
 
 .jarallax > .jarallax-img,
@@ -560,6 +622,7 @@ picture.jarallax-img img {
   width: 100%;
   height: 100%;
   z-index: -1;
+  border-radius: 20px !important;
 }
 
 /* Header */
@@ -1397,28 +1460,6 @@ picture.jarallax-img img {
   visibility: hidden;
 }
 
-
-
-/* rk-theme css start */
-.service-title {
-  position: absolute;
-  bottom: 0;
-  transition: bottom 0.3s ease;
-}
-
-.service-description {
-  position: absolute;
-  bottom: 0;
-  transition: bottom 0.3s ease;
-}
-
-.service-slide-card.active .service-title {
-  bottom: 140px;
-}
-
-.service-slide-card.active .service-description {
-  bottom: 45px;
-}
 
 /* Responsive adjustments */
 @media (max-width: 1300px) {
@@ -5233,7 +5274,7 @@ form .btn {
 }
 
 /* Light Version */
-.light-mode {
+body.light-mode {
   background-color: #FEFEFE;
   color: #1A1A1A;
 }

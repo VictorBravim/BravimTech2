@@ -76,7 +76,7 @@ const VideoAreaHomeOne: React.FC = () => {
       </div>
 
       <div
-        className="video-wrapper jarallax"
+        className="video-wrapper jarallax jarallax-container"
         data-jarallax=""
         data-speed="0.6"
         style={{

@@ -1,116 +1,69 @@
 "use client";
 import Link from "next/link";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Adicionando um pequeno CSS inline para o efeito de hover (remova se já existir no seu projeto)
-const styles = `
-  .service-slide-card:hover .service-title {
-    transform: translateY(-100px);
-    transition: transform 0.3s ease;
-  }
-  .service-title {
-    transition: transform 0.3s ease;
-  }
-`;
-
 const services = [
   {
-    icon: "ads_click",
-    title: "Marketing Digital",
-    description: "Campanhas projetadas para uma experiência digital positiva.",
-    link: "/marketing-digital",
-  },
-  {
     icon: "web",
-    title: "Desenvolvimento",
-    description: "Websites projetados para uma experiência online fluida.",
-    link: "/desenvolvimento",
+    title: "Web Sites",
+    description:
+      "Sites personalizados, otimizados para performance e usabilidade.",
+    link: "/website",
   },
   {
-    icon: "stream_apps",
-    title: "Aplicativos Móveis",
-    description: "Apps projetados para uma experiência móvel intuitiva.",
-    link: "/aplicativos-moveis",
+    icon: "search",
+    title: "SEO e Otimização",
+    description:
+      "Estratégias de SEO para melhorar o ranqueamento e visibilidade no Google.",
+    link: "/seo-otimizacao",
   },
   {
     icon: "design_services",
-    title: "Design UI/UX",
-    description: "Interfaces projetadas para uma experiência visual atrativa.",
-    link: "/design-ui-ux",
-  },
-  {
-    icon: "ads_click",
-    title: "Marketing Digital",
-    description: "Estratégias projetadas para uma experiência digital impactante.",
-    link: "/marketing-digital-2",
+    title: "Web Design",
+    description:
+      "Interfaces modernas e intuitivas, projetadas para engajar e converter.",
+    link: "/web-design",
   },
   {
     icon: "web",
-    title: "Desenvolvimento",
-    description: "Plataformas projetadas para uma experiência web acessível.",
-    link: "/desenvolvimento-2",
+    title: "Sites WordPress",
+    description:
+      "Desenvolvemos e personalizamos sites em WordPress otimizados.",
+    link: "/wordpress",
   },
   {
-    icon: "stream_apps",
-    title: "Aplicativos Móveis",
-    description: "Aplicativos projetados para uma experiência móvel prática.",
-    link: "/aplicativos-moveis-2",
+    icon: "palette",
+    title: "Identidade Visual",
+    description:
+      "Criação de marcas memoráveis com logos e elementos visuais únicos.",
+    link: "/identidade-visual",
   },
   {
-    icon: "design_services",
-    title: "Design UI/UX",
-    description: "Layouts projetados para uma experiência visual memorável.",
-    link: "/design-ui-ux-2",
+    icon: "build",
+    title: "Manutenção Web",
+    description: "Suporte para garantir segurança, atualizações e desempenho.",
+    link: "/manutencao",
   },
 ];
 
 const ServiceArea = () => {
-  const [isMobile, setIsMobile] = useState<boolean>(false);
-  const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const [isMobile, setIsMobile] = useState(false);
 
-  // Verifica se é mobile baseado na largura da tela
+  // Verifica se é mobile
   useEffect(() => {
     const checkMobile = () => {
       setIsMobile(window.innerWidth < 768);
     };
-
     checkMobile();
     window.addEventListener("resize", checkMobile);
-
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  // Função para lidar com o clique no mobile
-  const handleCardClick = (index: number) => {
-    if (isMobile) {
-      const card = cardRefs.current[index];
-      if (card) {
-        // Simula o evento de hover (mouseover) no clique
-        const mouseOverEvent = new Event("mouseover", { bubbles: true });
-        card.dispatchEvent(mouseOverEvent);
-
-        // Simula o mouseout ao clicar novamente
-        const mouseOutEvent = new Event("mouseout", { bubbles: true });
-        card.addEventListener(
-          "click",
-          () => {
-            card.dispatchEvent(mouseOutEvent);
-          },
-          { once: true }
-        );
-      }
-    }
-  };
-
   return (
     <div className="latest-service-wrapper bg-secondary">
-      {/* Adicionando o CSS inline (remova se já existir no seu projeto) */}
-      <style>{styles}</style>
-
       <div className="divider"></div>
-
       <div className="container">
         <div className="row g-4 align-items-end">
           <div className="col-12 col-sm-6">
@@ -118,10 +71,12 @@ const ServiceArea = () => {
               <h2 className="mb-0">Nossas Soluções para Clientes</h2>
             </div>
           </div>
-
           <div className="col-12 col-sm-6">
             <div className="swiper-navigation-container service-swiper-navigation">
-              <div className="service-button-prev" style={{ cursor: "pointer" }}>
+              <div
+                className="service-button-prev"
+                style={{ cursor: "pointer" }}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -135,8 +90,10 @@ const ServiceArea = () => {
                   />
                 </svg>
               </div>
-
-              <div className="service-button-next" style={{ cursor: "pointer" }}>
+              <div
+                className="service-button-next"
+                style={{ cursor: "pointer" }}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -153,16 +110,14 @@ const ServiceArea = () => {
             </div>
           </div>
         </div>
-
         <div className="divider-sm"></div>
-
         <div className="container">
           <Swiper
             loop={true}
             slidesPerView={4}
             spaceBetween={30}
             autoplay={{
-              delay: 4000,
+              delay: 5000,
               disableOnInteraction: false,
             }}
             navigation={{
@@ -182,14 +137,10 @@ const ServiceArea = () => {
             {services.map((item, i) => (
               <SwiperSlide key={i} className="swiper-slide">
                 <Link href={item.link}>
-                  <div
-                    ref={(el) => {
-                      cardRefs.current[i] = el;
-                    }}
-                    onClick={() => handleCardClick(i)}
-                    className="service-slide-card"
-                  >
-                    <span className="material-symbols-outlined">{item.icon}</span>
+                  <div className="service-slide-card">
+                    <span className="material-symbols-outlined">
+                      {item.icon}
+                    </span>
                     <h2 className="service-title">{item.title}</h2>
                     <p className="service-description">{item.description}</p>
                   </div>
@@ -198,7 +149,6 @@ const ServiceArea = () => {
             ))}
           </Swiper>
         </div>
-
         <div className="divider"></div>
       </div>
     </div>

@@ -10,16 +10,19 @@ const AboutArea = () => {
           <div className="row g-4 g-xl-5 align-items-center">
             <div className="col-12 col-md-6">
               <div className="about-us-thumbnail">
-                <img src="/assets/img/bg-img/6.jpg" alt="" />
+                <img
+                  src="/assets/img/bg-img/6.jpg"
+                  alt="Imagem da equipe trabalhando"
+                />
 
                 <div className="top-content">
                   <div className="clients-images">
-                    <img src="/assets/img/bg-img/5.jpg" alt="" />
-                    <img src="/assets/img/bg-img/4.jpg" alt="" />
-                    <img src="/assets/img/bg-img/3.jpg" alt="" />
-                    <img src="/assets/img/bg-img/2.jpg" alt="" />
+                    <img src="/assets/img/bg-img/5.jpg" alt="Projeto 1" />
+                    <img src="/assets/img/bg-img/4.jpg" alt="Projeto 2" />
+                    <img src="/assets/img/bg-img/3.jpg" alt="Projeto 3" />
+                    <img src="/assets/img/bg-img/2.jpg" alt="Projeto 4" />
                   </div>
-                  <h6 className="mb-0">2566+ Avaliações Globais</h6>
+                  <h6 className="mb-0">57+ Projetos Entregues</h6>
                 </div>
               </div>
             </div>
@@ -27,12 +30,14 @@ const AboutArea = () => {
             <div className="col-12 col-md-6">
               <div className="about-us-text-content ps-md-4">
                 <div className="section-heading">
-                  <h2 className="mb-0">Apaixonados por Design de Qualidade</h2>
+                  <h2 className="mb-0">Desenvolvendo o Futuro Digital</h2>
                 </div>
                 <p className="mb-0">
-                  Se você perguntar aos nossos clientes como é trabalhar com a
-                  gente, eles dirão o quanto nos importamos com o sucesso deles.
-                  Nós priorizamos o impulsionamento da sua empresa.
+                  Somos uma equipe dedicada a criar websites que combinam design
+                  excepcional, tecnologia de ponta e resultados concretos. Nosso
+                  foco é desenvolver soluções digitais personalizadas que
+                  refletem a essência da sua marca e impulsionam seu negócio no
+                  ambiente online.
                 </p>
 
                 <ul className="ps-0 list-unstyled mb-0">
@@ -49,7 +54,7 @@ const AboutArea = () => {
                         fill="#FEFEFE"
                       />
                     </svg>
-                    Simplicidade, a Maior Ideia Considerada
+                    Design intuitivo e responsivo para todos os dispositivos
                   </li>
                   <li>
                     <svg
@@ -64,7 +69,7 @@ const AboutArea = () => {
                         fill="#FEFEFE"
                       />
                     </svg>
-                    Dominando a Arte da Conversão
+                    Código otimizado para performance e SEO
                   </li>
                   <li>
                     <svg
@@ -79,14 +84,14 @@ const AboutArea = () => {
                         fill="#FEFEFE"
                       />
                     </svg>
-                    Manter Padrões de Publicidade Elevados
+                    Soluções personalizadas para cada negócio
                   </li>
                 </ul>
 
                 <div>
-                  <a href="#" className="btn btn-primary mt-1">
-                    <span>SOBRE NÓS</span>
-                    <span>SOBRE NÓS</span>
+                  <a href="/templates" className="btn btn-primary mt-1">
+                    <span>NOSSO TRABALHO</span>
+                    <span>NOSSO TRABALHO</span>
                   </a>
                 </div>
               </div>
@@ -96,23 +101,27 @@ const AboutArea = () => {
 
         <div className="divider"></div>
 
-        <div className="our-partners-wrapper">
+        <div className="our-tools-wrapper">
           <div className="container">
             <div className="row g-4 align-items-center">
               <div className="col-12 col-md-3">
                 <h4 className="mb-0">
-                  <span className="text-primary">73+</span> Nossos Clientes
+                  <span className="text-primary">10+</span> Ferramentas
+                  Utilizadas
                 </h4>
               </div>
 
               <div className="col-12 col-md-9">
-                <div className="partners-slide ms-md-4 d-flex flex-wrap align-items-center justify-content-between">
-                  <img src="/assets/img/partner-img/1.png" alt="" />
-                  <img src="/assets/img/partner-img/2.png" alt="" />
-                  <img src="/assets/img/partner-img/3.png" alt="" />
-                  <img src="/assets/img/partner-img/4.png" alt="" />
-                  <img src="/assets/img/partner-img/3.png" alt="" />
-                  <img src="/assets/img/partner-img/5.png" alt="" />
+                <div className="tools-slide ms-md-4 d-flex flex-wrap align-items-center justify-content-between">
+                  <img src="/assets/img/tools/photoshop.png" alt="photoshop" />
+                  <img src="/assets/img/tools/google.png" alt="google" />
+                  <img src="/assets/img/tools/figma.png" alt="figma" />
+                  <img src="/assets/img/tools/wordpress.png" alt="wordpress" />
+                  <img
+                    src="/assets/img/tools/indesign.png"
+                    alt="indesign"
+                  />
+                  <img src="/assets/img/tools/github.png" alt="github" />
                 </div>
               </div>
             </div>

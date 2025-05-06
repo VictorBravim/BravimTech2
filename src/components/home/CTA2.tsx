@@ -23,10 +23,9 @@ const Cta2Area = () => {
                 data-wow-duration="1000ms"
                 data-wow-delay="900ms"
               >
-                Agências de estúdio destacam-se em design gráfico, design,
-                branding e elementos visuais, oferecendo soluções abrangentes
-                para as necessidades de design das empresas em plataformas
-                gráficas.
+                Criamos sites incríveis, identidades visuais marcantes e
+                estratégias de SEO que colocam sua marca em destaque. Entregamos
+                soluções digitais sob medida para negócios de todos os tamanhos.
               </p>
               <a
                 href="#"

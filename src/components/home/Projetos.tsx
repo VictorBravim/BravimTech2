@@ -16,7 +16,7 @@ const ProjectsArea = () => {
 
             <div className="col-12 col-md-6 col-lg-4">
               <div className="text-md-end">
-                <a href="#" className="btn btn-primary">
+                <a href="/templates" className="btn btn-primary">
                   <span>VER MAIS</span>
                   <span>VER MAIS</span>
                 </a>
@@ -33,8 +33,8 @@ const ProjectsArea = () => {
 
                 <div className="portfolio-overlay-content d-flex align-items-center justify-content-between">
                   <div className="me-4">
-                    <h3 className="mb-0">Design de Website</h3>
-                    <p className="mb-0">Design de Marca</p>
+                    <h3 className="mb-0">Website</h3>
+                    <p className="mb-0">Academia</p>
                   </div>
 
                   <a href="#" className="btn">
@@ -77,8 +77,8 @@ const ProjectsArea = () => {
 
                 <div className="portfolio-overlay-content d-flex align-items-center justify-content-between">
                   <div className="me-4">
-                    <h3 className="mb-0">Design de Website</h3>
-                    <p className="mb-0">Design de Marca</p>
+                    <h3 className="mb-0">Website</h3>
+                    <p className="mb-0">Advocacia</p>
                   </div>
 
                   <a href="#" className="btn">
@@ -121,8 +121,8 @@ const ProjectsArea = () => {
 
                 <div className="portfolio-overlay-content d-flex align-items-center justify-content-between">
                   <div className="me-4">
-                    <h3 className="mb-0">Design de Website</h3>
-                    <p className="mb-0">Design de Marca</p>
+                    <h3 className="mb-0">Website</h3>
+                    <p className="mb-0">Hospitalar</p>
                   </div>
 
                   <a href="#" className="btn">
@@ -165,8 +165,8 @@ const ProjectsArea = () => {
 
                 <div className="portfolio-overlay-content d-flex align-items-center justify-content-between">
                   <div className="me-4">
-                    <h3 className="mb-0">Design de Website</h3>
-                    <p className="mb-0">Design de Marca</p>
+                    <h3 className="mb-0">Website</h3>
+                    <p className="mb-0">Educacional</p>
                   </div>
 
                   <a href="#" className="btn">

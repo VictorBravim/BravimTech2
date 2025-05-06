@@ -31,12 +31,11 @@ const HeroArea = () => {
                     <img src="/assets/img/bg-img/2.jpg" alt="Imagem de fundo" />
                     <img src="/assets/img/bg-img/3.jpg" alt="Imagem de fundo" />
                     <div>
-                      <span className="counter">73</span>+
+                      <span className="counter">23</span>+
                     </div>
                   </div>
                   <h6 className="mb-0">
-                    Mais de 73 <br />
-                    clientes confiáveis
+                    projetos entregues
                   </h6>
                 </div>
                 <p
@@ -44,9 +43,7 @@ const HeroArea = () => {
                   data-wow-duration="1000ms"
                   data-wow-delay="1100ms"
                 >
-                  Acreditamos que a melhor forma de sucesso é quando um cliente
-                  se torna nosso parceiro. Mais da metade dos nossos clientes
-                  permanecem conosco por mais de um projeto.
+                 Nosso foco é criar websites que impulsionam seu negócio. Trabalhamos em parceria com você para entregar resultados de qualidade.
                 </p>
                 <a
                   href="#"

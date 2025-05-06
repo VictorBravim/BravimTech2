@@ -4,7 +4,7 @@ import Cta2Area from "../home/CTA2";
 import AboutArea from "../home/Sobre";
 import VideoArea from "../home/CTA";
 import WorkprocessArea from "../home/Processo";
-import VideoAreaHomeOne from "../home/Video";
+import VideoAreaHomeOne from "./VideoArea";
 import TeamArea from "../home/Equipe";
 import TestimonialArea from "../home/Avaliações";
 import FooterOne from "@/layouts/footers/FooterOne";

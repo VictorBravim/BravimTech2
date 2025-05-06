@@ -12,7 +12,7 @@ const TeamArea = () => {
             <div className="col-12 col-lg-5">
               <div className="section-heading">
                 <h2 className="mb-4">Nossa Equipe</h2>
-                <Link href="/team" className="btn-link">
+                <Link href="/equipe" className="btn-link">
                   VER TODOS OS MEMBROS{" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ const TeamArea = () => {
 
                       <div className="team-info">
                         <h4>Gabriel Dias</h4>
-                        <p className="mb-0">Cota Gay</p>
+                        <p className="mb-0">Engenheiro de Computação</p>
                       </div>
                     </div>
                   </Link>
@@ -76,7 +76,7 @@ const TeamArea = () => {
 
                       <div className="team-info">
                         <h4>Daniel Rocha</h4>
-                        <p className="mb-0">Viciado - SPN</p>
+                        <p className="mb-0">Analista de Sistemas</p>
                       </div>
                     </div>
                   </Link>
@@ -92,11 +92,12 @@ const TeamArea = () => {
 
                       <div className="team-info">
                         <h4>Gustavo Gantois</h4>
-                        <p className="mb-0">Anão Bombado</p>
+                        <p className="mb-0">UI/UX Designer</p>
                       </div>
                     </div>
                   </Link>
                 </div>
+
               </div>
             </div>
           </div>

@@ -15,14 +15,14 @@ const BlogArea = () => {
                 <div className="single-blog">
                   <img src="/assets/img/bg-img/44.jpg" alt="" />
                   <div className="blog-meta d-flex align-items-center">
-                    <a href="#">26 de Março, 24</a>
+                    <a href="/artigo-web-site">26 de Março, 24</a>
                     <div className="dot"></div>
-                    <a href="#">Branding</a>
+                    <a href="/artigo-web-site">Branding</a>
                   </div>
-                  <Link className="post-title mb-5" href="/blog-details">
+                  <Link className="post-title mb-5" href="/artigo-web-site">
                     Agência de Design Gráfico que sua Marca Precisa
                   </Link>
-                  <Link href="/blog-details" className="btn btn-primary">
+                  <Link href="/artigo-web-site" className="btn btn-primary">
                     <span>LEIA MAIS</span>
                     <span>LEIA MAIS</span>
                   </Link>
@@ -31,14 +31,14 @@ const BlogArea = () => {
                 <div className="single-blog">
                   <img src="/assets/img/bg-img/45.jpg" alt="" />
                   <div className="blog-meta d-flex align-items-center">
-                    <a href="#">26 de Março, 24</a>
+                    <a href="/artigo-identidade-visual">26 de Março, 24</a>
                     <div className="dot"></div>
-                    <a href="#">Branding</a>
+                    <a href="/artigo-identidade-visual">Branding</a>
                   </div>
-                  <Link className="post-title mb-5" href="/blog-details">
+                  <Link className="post-title mb-5" href="/artigo-identidade-visual">
                     Fornecendo Ideias Brilhantes para seu Negócio
                   </Link>
-                  <Link href="/blog-details" className="btn btn-primary">
+                  <Link href="/artigo-identidade-visual" className="btn btn-primary">
                     <span>LEIA MAIS</span>
                     <span>LEIA MAIS</span>
                   </Link>
@@ -47,14 +47,14 @@ const BlogArea = () => {
                 <div className="single-blog">
                   <img src="/assets/img/bg-img/46.jpg" alt="" />
                   <div className="blog-meta d-flex align-items-center">
-                    <a href="#">26 de Março, 24</a>
+                    <a href="/artigo-seo">26 de Março, 24</a>
                     <div className="dot"></div>
-                    <a href="#">Branding</a>
+                    <a href="/artigo-seo">Branding</a>
                   </div>
-                  <Link className="post-title mb-5" href="/blog-details">
+                  <Link className="post-title mb-5" href="/artigo-seo">
                     As Últimas Tendências em Marketing Digital
                   </Link>
-                  <Link href="/blog-details" className="btn btn-primary">
+                  <Link href="/artigo-seo" className="btn btn-primary">
                     <span>LEIA MAIS</span>
                     <span>LEIA MAIS</span>
                   </Link>
@@ -123,31 +123,31 @@ const BlogArea = () => {
 
                   <ul className="blog-list">
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/">
                         Agência
                         <span>(03)</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/">
                         Negócios
                         <span>(01)</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/">
                         Desenvolvimento
                         <span>(05)</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/">
                         Design UI/UX
                         <span>(02)</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/">
                         Marketing
                         <span>(04)</span>
                       </Link>
@@ -156,17 +156,17 @@ const BlogArea = () => {
                 </div>
 
                 <div className="blog-widget">
-                  <h4 className="mb-4">Postagens Recentes</h4>
+                  <h4 className="mb-4">Posts Recentes</h4>
 
                   <div className="d-flex flex-column gap-4">
                     <div className="widget-blog-post">
                       <div className="blog-thumbnail">
-                        <img src="/assets/img/bg-img/41.jpg" alt="" />
+                        <img src="/assets/img/bg-img/41.jpg" alt="Design de logotipo profissional" />
                       </div>
                       <div className="blog-content">
                         <h6>
-                          <Link href="/blog-details">
-                            Agência de Design Gráfico que sua Marca Precisa
+                          <Link href="/artigo-web-site">
+                            Benefícios de um Design Responsivo para Websites
                           </Link>
                         </h6>
                         <p className="mb-0">26 de Março, 2024</p>
@@ -175,12 +175,12 @@ const BlogArea = () => {
 
                     <div className="widget-blog-post">
                       <div className="blog-thumbnail">
-                        <img src="/assets/img/bg-img/42.jpg" alt="" />
+                        <img src="/assets/img/bg-img/42.jpg" alt="Criação de identidade visual" />
                       </div>
                       <div className="blog-content">
                         <h6>
-                          <Link href="/blog-details">
-                            Fornecendo Ideias Brilhantes para seu Negócio
+                          <Link href="/artigo-identidade-visual">
+                            Como Criar uma Identidade Visual que Atrai Clientes
                           </Link>
                         </h6>
                         <p className="mb-0">26 de Março, 2024</p>
@@ -189,49 +189,18 @@ const BlogArea = () => {
 
                     <div className="widget-blog-post">
                       <div className="blog-thumbnail">
-                        <img src="/assets/img/bg-img/43.jpg" alt="" />
+                        <img src="/assets/img/bg-img/43.jpg" alt="Presença de marca" />
                       </div>
                       <div className="blog-content">
                         <h6>
-                          <Link href="/blog-details">
-                            As Últimas Tendências em Marketing Digital
+                          <Link href="/artigo-seo">
+                            Por que Sua Empresa Precisa de um Branding Profissional
                           </Link>
                         </h6>
                         <p className="mb-0">26 de Março, 2024</p>
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <div className="blog-widget">
-                  <h4 className="mb-4">Nuvem de Tags</h4>
-
-                  <ul className="tag-list list-unstyled">
-                    <li>
-                      <a href="#">Agência</a>
-                    </li>
-                    <li>
-                      <a href="#">Negócios</a>
-                    </li>
-                    <li>
-                      <a href="#">Marketing</a>
-                    </li>
-                    <li>
-                      <a href="#">Moderno</a>
-                    </li>
-                    <li>
-                      <a href="#">Criativo</a>
-                    </li>
-                    <li>
-                      <a href="#">Digital</a>
-                    </li>
-                    <li>
-                      <a href="#">Design</a>
-                    </li>
-                    <li>
-                      <a href="#">Prêmios</a>
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>

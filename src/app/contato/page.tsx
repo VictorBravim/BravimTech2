@@ -1,5 +1,5 @@
  
-import Contact from "@/components/contato";  
+import Contact from "@/components/contact";  
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {

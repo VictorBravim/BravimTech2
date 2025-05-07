@@ -26,7 +26,8 @@ const FooterOne = ({ style_2 }: any) => {
                 </a>
 
                 <p className="mb-0">
-                Agência de design criativo especializada em soluções inovadoras
+                  Agência de design criativo especializada em soluções
+                  inovadoras
                 </p>
 
                 <div className="social-nav">
@@ -88,19 +89,19 @@ const FooterOne = ({ style_2 }: any) => {
 
                 <ul className="footer-nav">
                   <li>
-                    <a href="#">Design UI/UX</a>
+                    <a href="/web-design">Design UI/UX</a>
                   </li>
                   <li>
-                    <a href="#">Otimização</a>
+                    <a href="/seo-otimizacao">Otimização</a>
                   </li>
                   <li>
-                    <a href="#">Desenvolvimento Web</a>
+                    <a href="/website">Desenvolvimento Web</a>
                   </li>
                   <li>
-                    <a href="#">Wordpress</a>
+                    <a href="/wordpress">Wordpress</a>
                   </li>
                   <li>
-                    <a href="#">Identidade visual</a>
+                    <a href="/identidade-visual">Identidade visual</a>
                   </li>
                 </ul>
               </div>
@@ -112,19 +113,19 @@ const FooterOne = ({ style_2 }: any) => {
 
                 <ul className="footer-nav">
                   <li>
-                    <a href="#">Sobre Nós</a>
+                    <a href="/sobre">Sobre Nós</a>
                   </li>
                   <li>
-                    <a href="#">Portfólio</a>
+                    <a href="/portfolio">Portfólio</a>
                   </li>
                   <li>
-                    <a href="#">Equipe Especializada</a>
+                    <a href="/equipe">Equipe Especializada</a>
                   </li>
                   <li>
-                    <a href="#">Plano e Preços</a>
+                    <a href="/orcamento">Plano e Preços</a>
                   </li>
                   <li>
-                    <a href="#">Blog e Notícias</a>
+                    <a href="/blog">Blog e Notícias</a>
                   </li>
                 </ul>
               </div>
@@ -176,14 +177,14 @@ const FooterOne = ({ style_2 }: any) => {
             <div className="col-12 col-lg-6">
               <p className="mb-0 copyright">
                 Copyright © {new Date().getFullYear()} <span id="year"></span>{" "}
-                <a href="#"> BravimTech </a>
+                <a href="/"> BravimTech </a>
               </p>
             </div>
 
             <div className="col-12 col-lg-6">
               <div className="footer-bottom-nav">
-                <a href="#">Termos & condições</a>
-                <a href="#">Política de privacidade</a>
+                <a href="/termos">Termos & condições</a>
+                <a href="/privacidade">Política de privacidade</a>
               </div>
             </div>
           </div>

@@ -46,13 +46,13 @@ const HeroArea = () => {
                  Nosso foco é criar websites que impulsionam seu negócio. Trabalhamos em parceria com você para entregar resultados de qualidade.
                 </p>
                 <a
-                  href="#"
+                  href="/orcamento"
                   className="btn btn-primary wow fadeInUp"
                   data-wow-duration="1000ms"
                   data-wow-delay="1200ms"
                 >
-                  <span>ENTRE EM CONTATO</span>
-                  <span>ENTRE EM CONTATO</span>
+                  <span>ORÇAMENTO ONLINE</span>
+                  <span>ORÇAMENTO ONLINE</span>
                 </a>
               </div>
             </div>

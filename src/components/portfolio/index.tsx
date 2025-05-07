@@ -4,6 +4,7 @@ import React from "react";
 import Cta2Area from "../home/CTA2";
 import FooterOne from "@/layouts/footers/FooterOne";
 import PortfolioArea from "./PortfolioArea";
+import VideoArea from "@/components/projects/CTA";
 
 const Portfolio = () => {
   return (
@@ -11,6 +12,7 @@ const Portfolio = () => {
       <HeaderOne />
       <Breacrumb title="Templates" subtitle="Portfolio" />
       <PortfolioArea />
+      <VideoArea style_2={true} />
       <Cta2Area />
       <FooterOne />
     </>

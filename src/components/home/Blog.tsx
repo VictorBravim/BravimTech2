@@ -31,11 +31,11 @@ const BlogArea = () => {
               <div className="blog-card">
                 <img src="/assets/img/bg-img/17.jpg" alt="" />
                 <div className="blog-meta d-flex align-items-center">
-                  <a href="#">26 de Março, 24</a>
+                  <a href="/artigo-web-site">26 de Março, 24</a>
                   <div className="dot"></div>
-                  <a href="#">Branding</a>
+                  <a href="/artigo-web-site">WEB</a>
                 </div>
-                <Link className="post-title" href="/blog-details">
+                <Link className="post-title" href="/artigo-web-site">
                   Fornecendo ideias brilhantes para o seu negócio
                 </Link>
               </div>
@@ -45,11 +45,11 @@ const BlogArea = () => {
               <div className="blog-card">
                 <img src="/assets/img/bg-img/18.jpg" alt="" />
                 <div className="blog-meta d-flex align-items-center">
-                  <a href="#">26 de Março, 24</a>
+                  <a href="/artigo-identidade-visual">26 de Março, 24</a>
                   <div className="dot"></div>
-                  <a href="#">Branding</a>
+                  <a href="/artigo-identidade-visual">DESIGN</a>
                 </div>
-                <Link className="post-title" href="/blog-details">
+                <Link className="post-title" href="/artigo-identidade-visual">
                   Tudo o que você precisa saber sobre retorno
                 </Link>
               </div>
@@ -59,11 +59,11 @@ const BlogArea = () => {
               <div className="blog-card">
                 <img src="/assets/img/bg-img/19.jpg" alt="" />
                 <div className="blog-meta d-flex align-items-center">
-                  <a href="#">26 de Março, 24</a>
+                  <a href="/artigo-seo">26 de Março, 24</a>
                   <div className="dot"></div>
-                  <a href="#">Branding</a>
+                  <a href="/artigo-seo">SEO</a>
                 </div>
-                <Link className="post-title" href="/blog-details">
+                <Link className="post-title" href="/artigo-seo">
                   Principais ferramentas para desenvolvimento web eficiente
                 </Link>
               </div>

@@ -28,7 +28,7 @@ const Cta2Area = () => {
                 soluções digitais sob medida para negócios de todos os tamanhos.
               </p>
               <a
-                href="#"
+                href="/contato"
                 className="btn btn-primary wow fadeInUp"
                 data-wow-duration="1000ms"
                 data-wow-delay="1100ms"

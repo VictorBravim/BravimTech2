@@ -1,5 +1,5 @@
  
-import Team from "@/components/equipe";
+import Team from "@/components/team";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {

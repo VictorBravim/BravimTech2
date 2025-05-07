@@ -365,7 +365,7 @@ ol li {
 .btn-link {
   position: relative;
   z-index: 1;
-  color: #eb9524;
+  color: #00ff80;
   text-transform: uppercase;
   text-decoration: none;
   display: -webkit-inline-box;
@@ -684,7 +684,7 @@ picture.jarallax-img img {
   }
 }
 .header-area .navbar-nav li > a:hover {
-  color: #FFC107;
+  color: #00ff80;
 }
 .header-area .navbar-nav li .vorix-dd-menu {
   list-style: none;
@@ -1423,6 +1423,7 @@ picture.jarallax-img img {
 .service-slide-card:hover h2,
 .service-slide-card:focus h2 {
   color: #0E0E0E;
+  bottom: 150px; /* Move h2 upward on hover, matching mobile active slide */
 }
 .service-slide-card:hover p,
 .service-slide-card:focus p {
@@ -1463,7 +1464,7 @@ picture.jarallax-img img {
   }
   .swiper-slide-active .service-slide-card h2 {
     color: #0E0E0E;
-    bottom: 100px; /* Matches your responsive adjustment */
+    bottom: 120px; /* Matches your responsive adjustment */
   }
   .swiper-slide-active .service-slide-card p {
     opacity: 1;
@@ -1483,7 +1484,7 @@ picture.jarallax-img img {
   }
   .light-mode .swiper-slide-active .service-slide-card h2 {
     color: #0E0E0E;
-    bottom: 100px;
+    bottom: 120px;
   }
   .light-mode .swiper-slide-active .service-slide-card p {
     opacity: 1;
